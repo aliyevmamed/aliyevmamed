@@ -64,10 +64,3 @@ I build **battle-hardened data platforms** that survive contact with reality. My
 * **Concept:** Zero-trust ingestion for banking data.
 * **Implementation:** Integrated **HashiCorp Vault** for dynamic secret management and implemented **SHA-256 PAN Hashing** at the ingestion layer.
 * **Result:** Analytics teams can join datasets on hashed keys without ever exposing raw credit card numbers.
-
----
-
-### 🧠 Algorithmic Background
-* **CERN School of Computing (2024):** Machine Learning Track (Split, Croatia).
-* **ICPC Regional:** 13th Place finalist.
-* **
