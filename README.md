@@ -1,68 +1,73 @@
-# Hi there, I'm Mammad Aliyev 👋
-
-### Data Engineer | FinOps & Infrastructure Specialist
-**Baku, Azerbaijan (Open for Relocation)**
-
-I architect and engineer high-scale data platforms for the banking sector. My focus is on **reliability at scale** (1B+ daily events), **cost optimization** (FinOps), and **governance** (PII Security).
-
-Currently, I am a **Data Engineer at Kapital Bank**, effectively managing the data backbone for millions of customers.
-
----
-
-## 🚀 Impact & Engineering Highlights
-
-Here is a snapshot of what I build in production:
-
-- **💸 FinOps & Cloud Repatriation:** Architected a strategy to move heavy analytical workloads from BigQuery to on-prem Spark clusters, reducing cloud compute costs by **~75%** while maintaining performance on **50M+ daily records**.
-- **🌊 Massive Scale Ingestion:** Built an automated ingestion engine using **Kafka Connect (GoldenGate)** and **Debezium**, processing **1 Billion+ CDC events/day** across 70+ Oracle databases.
-- **🔐 Banking-Grade Security:** Implemented "Privacy by Design" ingestion layers using **SHA-256 PAN hashing** and **HashiCorp Vault** integration, ensuring zero PII leakage while preserving referential integrity for analytics.
-- **⏱️ Reliability:** Own the **24/7 on-call rotation** for critical SAP data marts, maintaining strict start-of-business SLAs for executive reporting.
+<div align="center">
+  <h2>Hi, I'm Mammad Aliyev 👋</h2>
+  <p>
+    <b>Data Engineer</b> based in Baku, Azerbaijan 🇦🇿<br>
+    <i>Specializing in High-Scale Streaming, FinOps, and Secure Data Infrastructure.</i>
+  </p>
+  <a href="https://linkedin.com/in/mammad-aliyev">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:mammed.aliyev.e@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" />
+  </a>
+</div>
 
 ---
 
-## 🛠️ Technical Stack
+### 🔭 Engineering Philosophy
+I build **battle-hardened data platforms** that survive contact with reality. My engineering focus is threefold:
+1.  **Extreme Scale:** designing for **1B+ daily events** and handling backpressure gracefully.
+2.  **Unit Economics (FinOps):** optimizing compute/storage ratios to stop cloud bills from bleeding.
+3.  **Governance as Code:** embedding PII security (hashing/vault) directly into ingestion pipelines.
 
-**Languages & Core**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+---
 
-**Data Engineering**
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![Apache Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat&logo=apacheflink&logoColor=white)
-![Debezium](https://img.shields.io/badge/Debezium-000000?style=flat&logo=debezium&logoColor=white)
+### 🛠️ Tech Stack
+
+**Core & Compute**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white)
+
+**Streaming & Orchestration**
+![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Debezium](https://img.shields.io/badge/Debezium-000000?style=flat-square&logo=debezium&logoColor=white)
 
 **Infrastructure & Ops**
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![HashiCorp Vault](https://img.shields.io/badge/HashiCorp%20Vault-FFD814?style=flat&logo=vault&logoColor=black)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![K8s](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vault](https://img.shields.io/badge/HashiCorp%20Vault-FFD814?style=flat-square&logo=vault&logoColor=black)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
-**Storage & Formats**
-![Iceberg](https://img.shields.io/badge/Apache%20Iceberg-222222?style=flat&logo=apache&logoColor=white)
-![Parquet](https://img.shields.io/badge/Apache%20Parquet-33A3DC?style=flat&logo=apache&logoColor=white)
-![BigQuery](https://img.shields.io/badge/Google%20BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+**Data Lake & Storage**
+![Iceberg](https://img.shields.io/badge/Apache%20Iceberg-222222?style=flat-square&logo=apache&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
 ---
 
-## 🏆 Algorithmic Background & Awards
+### 🚀 Key Systems Engineered
 
-I believe strong engineering is built on strong algorithmic foundations.
+#### 📉 **Cloud Repatriation Strategy (FinOps)**
+* **Problem:** Cloud-native analytics costs were spiraling due to high-frequency queries on BigQuery.
+* **Solution:** Architected a repatriation pipeline moving 50M+ daily records to on-premise Spark clusters with Iceberg tables.
+* **Outcome:** Reduced total compute spend by **~75%**, proving that "cloud-first" isn't always "cost-efficient."
 
-- **CERN School of Computing (2024):** Selected for the Machine Learning track (Split, Croatia).
-- **ICPC Regional (13th Place):** Competitive programming finalist.
-- **MSc Computing Science:** University of Glasgow (Full Government Scholarship Recipient).
+#### 🌊 **CDC Ingestion Backbone**
+* **Scale:** **1 Billion+ events/day** across 70+ Oracle databases.
+* **Architecture:** Oracle GoldenGate → Kafka → Flink/Spark → Data Lake.
+* **Reliability:** Implemented metadata-driven alerting and auto-schema evolution to manage **1,000+ tables** without manual intervention.
+
+#### 🔐 **Secure PII Vault**
+* **Concept:** Zero-trust ingestion for banking data.
+* **Implementation:** Integrated **HashiCorp Vault** for dynamic secret management and implemented **SHA-256 PAN Hashing** at the ingestion layer.
+* **Result:** Analytics teams can join datasets on hashed keys without ever exposing raw credit card numbers.
 
 ---
 
-## 📬 Connect with Me
-
-- 💼 [LinkedIn](https://linkedin.com/in/mammad-aliyev)
-- 📧 [mammed.aliyev.e@gmail.com](mailto:mammed.aliyev.e@gmail.com)
-
-![Mammad's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=radical)
+### 🧠 Algorithmic Background
+* **CERN School of Computing (2024):** Machine Learning Track (Split, Croatia).
+* **ICPC Regional:** 13th Place finalist.
+* **
