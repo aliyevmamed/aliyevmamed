@@ -4,7 +4,7 @@
     <b>Data Engineer</b> based in Baku, Azerbaijan 🇦🇿<br>
     <i>Specializing in High-Scale Streaming, FinOps, and Secure Data Infrastructure.</i>
   </p>
-  <a href="https://linkedin.com/in/mammad-aliyev">
+  <a href="[https://linkedin.com/in/mammad--aliyev](https://www.linkedin.com/in/mammad--aliyev/)">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:mammed.aliyev.e@gmail.com">
