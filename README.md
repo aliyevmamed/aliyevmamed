@@ -1,7 +1,7 @@
 <div align="center">
   <h2>Hi, I'm Mammad Aliyev 👋</h2>
   <p>
-    <b>Data Engineer</b> based in Baku, Azerbaijan 🇦🇿<br>
+    <b>Data Software Engineer</b> based in Baku, Azerbaijan 🇦🇿<br>
     <i>Specializing in High-Scale Streaming, FinOps, and Secure Data Infrastructure.</i>
   </p>
   <a href="https://www.linkedin.com/in/mammad--aliyev">
